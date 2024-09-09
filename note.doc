@@ -1,0 +1,46 @@
+project-root/
+│
+├── controllers/          # Chứa các controller
+│   ├── userController.js
+│   ├── productController.js
+│   └── ...
+│
+├── models/               # Chứa các model
+│   ├── userModel.js
+│   ├── productModel.js
+│   └── ...
+│
+├── views/                # Chứa các view (template)
+│   ├── user/
+│   │   ├── index.ejs
+│   │   ├── show.ejs
+│   │   └── ...
+│   ├── product/
+│   │   ├── index.ejs
+│   │   ├── show.ejs
+│   │   └── ...
+│   └── ...
+│
+├── routes/               # Chứa các file định nghĩa route
+│   ├── userRoutes.js
+│   ├── productRoutes.js
+│   └── ...
+│
+├── public/               # Chứa các file tĩnh (CSS, JS, images, etc.)
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   └── ...
+│
+├── config/               # Chứa các file cấu hình
+│   ├── database.js       # Cấu hình kết nối cơ sở dữ liệu
+│   ├── passport.js       # Cấu hình xác thực
+│   └── ...
+│
+├── middlewares/          # Chứa các middleware tùy chỉnh
+│   ├── authMiddleware.js
+│   └── ...
+│
+├── app.js                # File chính của ứng dụng
+├── package.json          # File cấu hình npm, chứa các dependencies
+└── README.md             # Thông tin về dự án
